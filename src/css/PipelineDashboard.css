@@ -1,0 +1,94 @@
+#dashtitle {
+    position: fixed;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 1%;
+    padding: 10px 20px;
+}
+
+#dashsubtitle {
+    position: fixed;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 10px 20px;
+}
+
+#dashcon0 {
+    position: fixed;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top:  8%;
+    padding: 10px 20px;
+}
+
+#dashcon1 {
+    position: fixed;
+    text-align: left;
+    margin-left: 25%;
+    margin-top:  13%;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+#dashcon2 {
+    position: fixed;
+    text-align: left;
+    margin-left: 25%;
+    margin-top:  28%;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #eee;
+}
+
+#dashcon3 {
+    position: fixed;
+    text-align: left;
+    margin-left: 25%;
+    margin-top:  44%;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+button {
+    position: sticky;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
+    height: 100px;
+    width: 105px;
+    background-color: #1abc9c;
+    border: 2px solid darkcyan;
+}
+
+button:hover, #btn:hover {
+    background-color: black;
+}
+
+#btn {
+    position: fixed;
+    border-radius: 100%;
+    right: 1px;
+    height: 60px;
+    width: 63px;
+    font-size: 28px;
+    color: white;
+}
+
+.fa-aws, .fa-gitlab, .fa-jenkins, .fa-docker, .fa-angular, .fa-java, .fa-cloud, .fa-slack {
+    font-size: 50px;
+    color: white;
+}
