@@ -1,0 +1,130 @@
+#platformdashtitle{
+    position: fixed;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 1%;
+    padding: 10px 20px;
+}
+
+#platformdashsubtitle{
+    position: fixed;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 10px 20px;
+}
+
+.parent-card1{
+    position: fixed;
+    text-align: center;
+    margin-left: 25%;
+    margin-top:  10%;
+    height: 40%;
+    width: 15%;
+    background-color: #ddd;
+}
+
+.parent-card2{
+    position: fixed;
+    text-align: center;
+    height: 40%;
+    width: 15%;
+    margin-left: 25%;
+    margin-top:  29.5%;
+    background-color: #ddd;
+}
+
+.platformdashcon1{
+    position: fixed;
+    text-align: center;
+    margin-left: 40.5%;
+    margin-top:  10%;
+    height: 40%;
+    width: 15%;
+    background-color: #eee;
+}
+
+.platformdashcon2{
+    position: fixed;
+    text-align: center;
+    margin-left: 56%;
+    margin-top:  10%;
+    height: 40%;
+    width: 15%;
+    background-color: #eee;
+}
+
+.platformdashcon3{
+    position: fixed;
+    text-align: center;
+    margin-left: 71.5%;
+    margin-top:  10%;
+    height: 40%;
+    width: 15%;
+    background-color: #eee;
+}
+
+.platformdashcon4{
+    position: fixed;
+    text-align: center;
+    margin-left: 40.5%;
+    margin-top:  29.5%;
+    height: 40%;
+    width: 15%;
+    background-color: #eee;
+}
+
+.platformdashcon5{
+    position: fixed;
+    text-align: center;
+    margin-left: 56%;
+    margin-top: 29.5%;
+    height: 40%;
+    width: 15%;
+    background-color: #eee;
+}
+
+.platformdashcon6{
+    position: fixed;
+    text-align: center;
+    margin-left: 71.5%;
+    margin-top:  29.5%;
+    height: 40%;
+    width: 15%;
+    background-color: #eee;
+}
+ .fa-minus-circle, .fa-hdd, .fa-upload, .fa-th-large{
+    padding: 3px 3px 3px 3px;
+    margin-top: 1%
+} 
+
+.logo{
+    margin-top: 10%;
+    padding: 5px, 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.logo1{
+    /* margin-top: 10%; */
+    padding: 5px, 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-cloud{
+    color: black;
+}
+
+h5{
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+h6{
+    font-weight: 400;
+    margin-top: 0px;
+}

@@ -1,0 +1,41 @@
+#home {
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+}
+
+#creologo {
+    background-image: url("../images/creo-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 12%;
+    width: 30%;
+    left: 35.5%;
+    top: 20%;
+    position: fixed;
+    margin: 0;
+}
+#homelogo {
+    background-image: url("../images/ibm-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30%;
+    width: 30%;
+    left: 35%;
+    top: 25%;
+    position: fixed;
+    margin: 0;
+}
+
+#hometitle {
+    font-size: 36px;
+    position: fixed;
+    top: 50%;
+    left: 46%;
+    color: white;
+
+}

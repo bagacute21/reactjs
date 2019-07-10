@@ -1,0 +1,139 @@
+#btn1 {
+    position: fixed;
+    border-radius: 100%;
+    right: 75px;
+    height: 60px;
+    width: 63px;
+    font-size: 28px;
+    color: white;
+}
+
+#btn2 {
+    position: fixed;
+    border-radius: 100%;
+    right: 1px;
+    height: 60px;
+    width: 63px;
+    font-size: 28px;
+    color: white;
+}
+
+#settingtitle {
+    position: fixed;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 1%;
+    padding: 10px 20px;
+}
+
+#settingsubtitle {
+    position: fixed;
+    text-align: left;
+    font-weight: normal;
+    margin-left: 25%;
+    margin-top: 4%;
+    padding: 10px 20px;
+}
+
+#settingplatform {
+    position: fixed;
+    text-align: left;
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top:  9%;
+    padding: 10px 20px;
+}
+
+    #radio{
+        position: fixed;
+        text-align: left;
+        font-weight: normal;
+        margin-left: 25%;
+        margin-top: 12%;
+        padding: 10px 20px;
+    }
+
+#serversetting {
+    position: fixed;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top:  17%;
+    padding: 10px 20px;
+}
+
+#serversetting-ram{
+    position: fixed;
+    text-align: center;
+    margin-left: 27%;
+    margin-top:  22%;
+    height: 20%;
+    width: 15%;
+    padding: 50px 0px;
+    background-color:#78e08f;
+}
+#serversetting-ram:hover{
+    background-color: #2ecc71;
+}
+
+#serversetting-ssd{
+    position: fixed;
+    text-align: center;
+    margin-left: 45%;
+    margin-top:  22%;
+    height: 20%;
+    width: 15%;
+    padding: 50px 0px;
+    background-color:#78e08f;
+}
+#serversetting-ssd:hover{
+    background-color: #2ecc71;
+}
+
+#serversetting-cores{
+    position: fixed;
+    text-align: center;
+    margin-left: 63%;
+    margin-top:  22%;
+    height: 20%;
+    width: 15%;
+    padding: 50px 0px;
+    background-color:#78e08f;
+}
+#serversetting-cores:hover{
+    background-color: #2ecc71;
+}
+
+#serversetting-linux{
+    position: fixed;
+    text-align: center;
+    margin-left: 81%;
+    margin-top:  22%;
+    height: 20%;
+    width: 15%;
+    padding: 50px 0px;
+    background-color:#78e08f;
+}
+#serversetting-linux:hover{
+    background-color: #2ecc71;
+}
+        #number{
+            font-weight: bold;
+            font-size: 46px; 
+        }
+        #label1{
+            font-weight: lighter;
+            font-size: 20px;  
+        }
+        #label2{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #type{
+            font-weight: bold;
+            font-size: 46px;
+        }

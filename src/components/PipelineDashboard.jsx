@@ -21,8 +21,10 @@ class PipelineDashboard extends Component {
                 </div>
 
                 <div id="dashcon0">
-                Uploaded Project:<br/>
-                Detected Project Type:
+                <label>Uploaded Project: </label>
+                &emsp; &emsp;&emsp; spring-petclinic_v2.0.0.zip<br/>
+                <label>Detected Project Type: </label>
+                &emsp; Java Maven
                 </div>
 
                 <div id="dashcon1">
@@ -42,7 +44,8 @@ class PipelineDashboard extends Component {
                 </div>
                 
                 <div id='dashcon3'>
-                Estimated Cost:
+                <label>Estimated Cost: &emsp;</label>
+                $ 0.0
                 </div>
             </div>
         );
