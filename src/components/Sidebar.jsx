@@ -13,6 +13,7 @@ export default class Sidebar extends Component {
     render() {
         return (
             <HashRouter>
+                <PlatformsDashboard/>
                 <div className="navbar">
                     <br />
                     <br />
@@ -25,22 +26,22 @@ export default class Sidebar extends Component {
                     <div id="sidebar">
                     <li className="sidebar-button">
                         <Link to="/platforms" id="sidebar-link">
-                        <i class="fas fa-layer-group"></i> Platforms
+                        <label className="text"><i class="fas fa-layer-group"></i> Platforms</label>
                         </Link>
                     </li>
                     <li className="sidebar-button">
                         <Link to="/pipelines" id="sidebar-link">
-                        <i class="fas fa-tools"></i> Pipelines
+                        <label className="text"><i class="fas fa-tools"></i> Pipelines</label>
                         </Link>
                     </li>
                     <li className="sidebar-button">
                         <Link to="/migrations" id="sidebar-link">
-                        <i class="fas fa-exchange-alt"></i> Migrations
+                        <label className="text"><i class="fas fa-exchange-alt"></i> Migrations</label>
                         </Link>
                     </li>
                     <li className="sidebar-button">
                         <Link to="/settings" id="sidebar-link">
-                        <i class="fas fa-cog"></i> Settings
+                        <label className="text"><i class="fas fa-cog"></i> Settings</label>
                         </Link>
                     </li>
                     </div>

@@ -1,9 +1,10 @@
 #home {
     position: fixed;
     margin: 0;
+    z-index: -1;
     height: 100%;
     width: 100%;
-    background-color: darkblue;
+    background-color: #000080;
 }
 
 #creologo {
@@ -13,6 +14,7 @@
     background-size: contain;
     height: 12%;
     width: 30%;
+    z-index: -1;
     left: 35.5%;
     top: 20%;
     position: fixed;
@@ -26,6 +28,7 @@
     height: 30%;
     width: 30%;
     left: 35%;
+    z-index: -1;
     top: 25%;
     position: fixed;
     margin: 0;
@@ -35,7 +38,76 @@
     font-size: 36px;
     position: fixed;
     top: 50%;
+    z-index: -1;
     left: 46%;
     color: white;
+}
 
+#homecon0 {
+    position: fixed;
+    left: 35%;
+    top: 60%;
+    z-index: -1;
+    height: 10%;
+    width: 30%;
+
+}
+
+input[type=text], input[type=password] {
+    padding: 10px 50px;
+    z-index: -1;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    z-index: -1;
+    text-align: center;
+}
+
+#reset {
+    color: white;
+    position: fixed;
+    left: 30%;
+    z-index: -1;
+    margin-top: 4.5%;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    font-style: italic;
+    padding: 0px 10px;
+    height: 5%;
+    width: 30%;
+}
+
+#reset:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+#sign-in {
+    position: fixed;
+    left: 51%;
+    margin-top: 4.5%;
+    background-image: none;
+    background-color: rgb(1, 204, 255);
+    border: none;
+    color: white;
+    z-index: -1;
+    font-weight: none;
+    padding: 0px 10px;
+    height: 5%;
+    width: 8%;
+    border-radius: 10px;
+}
+
+#sign-in:hover {
+    cursor: pointer;
+    color: black;
 }

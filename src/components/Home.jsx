@@ -1,38 +1,47 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import { HashRouter, Route, Link } from 'react-router-dom';
+import Sidebar from './Sidebar.jsx';
 
 import "../css/Home.css";
 
 class Home extends Component {
-    render () {
+    
+    render() {
         return (
+            <HashRouter>
                 <div id="home">
-                {/* home container */}
-                
-                    
+                    {/* home container */}
+                </div>
+
                     <div id="creologo">
-                    {/* comment */}
+                        {/* comment */}
                     </div>
                     <div id="homelogo">
-                    {/* image container */}
+                        {/* image container */}
                     </div>
 
                     <div id="hometitle">
-                    creous
+                        creous
                     </div>
 
-                
-                 </div>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                    <div id="homecon0">
+                        <input type="text" placeholder="Username"></input>
+                        <input type="password" placeholder="Password"></input>
+                        <button id="reset">Reset Password</button>
+                        <button id="sign-in">
+ 
+                            
+                            <Link to="/sidebar" id="sidebar-link">
+                                Sign In
+                            </Link>
+                        </button>
+                    </div>
+
+                    <div>
+                        <Route path="/sidebar" component={Sidebar}/>
+                    </div>
+
+            </HashRouter>
         );
     }
 }

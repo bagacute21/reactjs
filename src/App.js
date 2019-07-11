@@ -18,7 +18,8 @@ function App() {
     {/* <Migrations/> */}
      {/* <PipelineDashboard/> */}
      {/* <PipelineCreation/> */}
-    <Sidebar/>
+    {/* <Sidebar/> */}
+    <Home/>
     </div>
   );
 }

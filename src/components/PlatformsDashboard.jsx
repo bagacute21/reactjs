@@ -9,10 +9,15 @@ class PlatformsDashboard extends Component {
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
                     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
                     crossOrigin="anonymous" />
-                <Fragment>
+                <div>
+
                     <button id="btn"><i class="fas fa-plus-circle"></i></button>
                     <div id="platformdashtitle">Platforms Dashboard<br /></div>
                     <div id="platformdashsubtitle">DevOps Technology Orchestration</div>
+
+                    <div id="platformdashbody">
+                        {/* body container */}
+                    </div>
 
                     <div className="parent-card1">
                         <h5 className="card-title">My Custom Platform</h5>
@@ -97,7 +102,7 @@ class PlatformsDashboard extends Component {
                             <i className="fas fa-th-large"></i>
                         </div>
                     </div>
-                </Fragment>
+                </div>
             </div>
         );
     }
